@@ -23,45 +23,6 @@
   --fundo-card: #ffffff;
 }
 
-/* Aplicar cores usando variáveis */
-html, body{
-    background-color: var(--bg);
-    color: var(--text);
-    transition: background-color .25s ease, color .25s ease;
-}
-
-/* Elementos que usam o fundo de cartão */
-header, footer, .projeto-info, .curso, .barra, #menu {
-  background-color: var(--card);
-  color: var(--text);
-  transition: background-color .25s ease, color .25s ease;
-}
-
-/* Links e ícones */
-a, a:visited {
-  color: var(--accent);
-}
-
-#botao-tema i {
-  color: var(--text);
-  transition: color .25s ease;
-}
-
-/* Barra de progresso */
-.barra {
-  background-color: color-mix(in srgb, var(--card) 80%, transparent);
-}
-.barra .progresso {
-  background-color: var(--accent);
-  transition: width .4s ease, background-color .25s ease;
-}
-
-/* Ajustes para imagens e iframes no modo escuro */
-.foto {
-  filter: var(--foto-filter);
-  transition: filter .25s ease;
-}
-
 .video-container iframe {
   background-color: transparent;
 }
