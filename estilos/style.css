@@ -58,7 +58,7 @@ nav#menu a {
   font-weight: 600;
   padding: 12px 15px;
   border-radius: 5px;
-  transition: background-color 0.5s color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 nav#menu a:hover {
@@ -195,7 +195,7 @@ article h2 {
   border-radius: 8px;
   border-left: 5px solid var(--destaque-inverso);
   padding-left: 15px;
-  transition: border-width 0.5s border-color 0.5s;
+  transition: border-width 0.5s, border-color 0.5s;
 }
 
 #formacao-container .curso:hover {
@@ -230,7 +230,7 @@ article h2 {
   padding: 10px;
   border-radius: 8px;
   border-left: 5px solid var(--destaque-inverso);
-  transition: border-width 0.5s border-color 0.5s;
+  transition: border-width 0.5s, border-color 0.5s;
 }
 
 #projeto-container .projeto:hover {
