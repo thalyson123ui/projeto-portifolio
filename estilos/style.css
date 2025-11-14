@@ -23,24 +23,6 @@
   --fundo-card: #ffffff;
 }
 
-/* ===============================
-   TEMA ESCURO
-   =============================== */
-:root.dark-theme {
-  --fundo-principal: #121212;
-  --texto: #e5e5e5;
-  --texto-inverso: #ffffff;
-  --destaque: #ff7f50;
-  --destaque-inverso: #ff6347;
-  --fundo-card: #1c1c1c;
-}
-
-/* Compatibilidade com classe adicionada no JS */
-body.escuro {
-  background-color: var(--fundo-principal);
-  color: var(--texto);
-}
-
 .video-container iframe {
   background-color: transparent;
 }
@@ -76,7 +58,7 @@ nav#menu a {
   font-weight: 600;
   padding: 12px 15px;
   border-radius: 5px;
-  transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s color 0.5s;
 }
 
 nav#menu a:hover {
@@ -213,7 +195,7 @@ article h2 {
   border-radius: 8px;
   border-left: 5px solid var(--destaque-inverso);
   padding-left: 15px;
-  transition: border-width 0.5s, border-color 0.5s;
+  transition: border-width 0.5s border-color 0.5s;
 }
 
 #formacao-container .curso:hover {
@@ -228,7 +210,7 @@ article h2 {
   color: var(--texto);
 }
 
-#formacao-container .instituicao {
+#formacao-container .instituição {
   font-size: 1.1em;
   font-weight: bold;
   color: var(--destaque-inverso);
@@ -248,7 +230,7 @@ article h2 {
   padding: 10px;
   border-radius: 8px;
   border-left: 5px solid var(--destaque-inverso);
-  transition: border-width 0.5s, border-color 0.5s;
+  transition: border-width 0.5s border-color 0.5s;
 }
 
 #projeto-container .projeto:hover {
